@@ -13,14 +13,15 @@ namespace MethodOverloading
             return a + b;
         }
 
-        public static double Add(double a, double b)
+        public static decimal Add(decimal a, decimal b)
         {
-            return (double)a + b;
+            return a + b;
         }
 
         public static string Add(int a, int b, bool dollars)
         {
             int result = a + b;
+
         if  (dollars == true && result == 1 || result == -1)
             {
                 return ($"{result} dollar");

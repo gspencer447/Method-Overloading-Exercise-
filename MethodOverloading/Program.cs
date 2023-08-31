@@ -6,8 +6,8 @@
         {
             
             Console.WriteLine(Overload1.Add(0,1));
-            Console.WriteLine(Overload1.Add(3.4,5.3));
-            Console.WriteLine(Overload1.Add(-2,1,true));
+            Console.WriteLine(Overload1.Add(3.4m,5.3m));
+            Console.WriteLine(Overload1.Add(4,1,true));
         }
     }
 }
