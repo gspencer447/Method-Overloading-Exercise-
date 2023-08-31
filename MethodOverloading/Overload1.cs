@@ -21,11 +21,11 @@ namespace MethodOverloading
         public static string Add(int a, int b, bool dollars)
         {
             int result = a + b;
-        if  (dollars == true && result == 1)
+        if  (dollars == true && result == 1 || result == -1)
             {
                 return ($"{result} dollar");
             }
-        else if (dollars == true)
+        else if (dollars == true && result > 1)
             {
                 return ($"{result} dollars");
             }
